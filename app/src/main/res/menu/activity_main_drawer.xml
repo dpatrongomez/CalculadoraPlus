@@ -3,35 +3,64 @@
     xmlns:tools="http://schemas.android.com/tools"
     tools:showIn="navigation_view">
 
-    <group android:checkableBehavior="single">
+    <item android:title="Calculadora">
+    <menu>
         <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
+            android:id="@+id/estandar"
+            android:title="Estándar" />
         <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
+            android:id="@+id/cientifica"
+            android:title="Científica" />
         <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
+            android:id="@+id/programador"
+            android:title="Programador" />
         <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
-    </group>
+            android:id="@+id/fecha"
+            android:title="Cálculo de la fecha" />
+    </menu>
+    </item>
 
-    <item android:title="Communicate">
+    <item android:title="Convertidor">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
+                android:id="@+id/moneda"
+                android:title="Moneda" />
             <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/volumen"
+                android:title="Volumen" />
+            <item
+                android:id="@+id/longitud"
+                android:title="Longitud" />
+            <item
+                android:id="@+id/pesoymasa"
+                android:title="Peso y masa" />
+            <item
+                android:id="@+id/temperatura"
+                android:title="Temperatura" />
+            <item
+                android:id="@+id/energia"
+                android:title="Energía" />
+            <item
+                android:id="@+id/area"
+                android:title="Área" />
+            <item
+                android:id="@+id/velocidad"
+                android:title="Velocidad" />
+            <item
+                android:id="@+id/tiempo"
+                android:title="Tiempo" />
+            <item
+                android:id="@+id/potencia"
+                android:title="Potencia" />
+            <item
+                android:id="@+id/datos"
+                android:title="Datos" />
+            <item
+                android:id="@+id/presion"
+                android:title="Presión" />
+            <item
+                android:id="@+id/angulo"
+                android:title="Ángulo" />
         </menu>
     </item>
 
